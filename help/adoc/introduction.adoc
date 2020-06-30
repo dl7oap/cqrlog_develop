@@ -1,0 +1,9 @@
+// Status=review
+
+CQRLOG is an advanced ham radio logging application based on a MySQL database. It provides radio interfacing utilizing the hamlib libraries (currently support for 140+ radio types and models), DX cluster connection, band map, QRZ.com/HamQTH.com callbook (XML access), ClubLog and Logbook of the World support, IOTA support, a grayliner, propagation indicator, xplanet support (maps in azimuthal projection centered in your QTH), OK1RR free QSL manager database etc.
+
+CQRLOG is intended mainly for seriously HF DX minded operators but can be used for any ham logging purpose, also by casual operators. It is equipped with probably most accurate DXCC country database available, providing not only the country resolution but also state, province, region, district etc. It resolves also antarctic bases, special event stations, contest callsigns and much more.
+
+CQRLOG has its own web site at http://www.cqrlog.com. Find news, changes, latest additional files and howtos there. If you have a problem, browse the web site first, then ask for help.
+
+
