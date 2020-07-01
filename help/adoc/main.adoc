@@ -28,15 +28,11 @@ include::../common/links.adoc[]
 == Introduction
 include::introduction.adoc[]
 
-[[SYSREQ]]
-== System Requirements
-include::system-requirements.adoc[]
-
 [[INSTALL]]
 == Installation
 
 Installation packages are found on the the {homepage}. Click on the
-_WSJT-X_ link at the left margin, and then select the appropriate
+_CQRLOG_ link at the left margin, and then select the appropriate
 package for your operating system.
 
 [[INSTALL_LINUX]]
@@ -45,128 +41,55 @@ include::install_linux.adoc[]
 
 [[SRC_CODE]]
 === Source Code
-include::install-from-source.adoc[]
-
-[[CONFIG]] 
-== Settings
-
-Select *Settings* from the *File* menu or by typing *F2* (on
-Macintosh, *Cmd+,*).  The following sections describe setup optiions
-available on each of six tabs selectable near the top of the window.
-
-[[GENERAL]]
-=== General
-include::settings-general.adoc[]
-
-[[RADIO]]
-=== Radio
-include::settings-radio.adoc[]
-
-[[AUDIO]]
-=== Audio
-include::settings-audio.adoc[]
-
-[[TXMACROS]]
-=== Tx Macros
-include::settings-txmacros.adoc[]
-
-[[LOGGING]]
-=== Reporting
-include::settings-reporting.adoc[]
-
-[[BAND_SETTINGS]]
-=== Frequencies
-include::settings-frequencies.adoc[]
-
-[[TRANSCEIVER]]
-== Transceiver Setup
-include::transceiver-setup.adoc[]
+https://github.com/ok2cqr/cqrlog
 
 [[TUTORIAL]]
 == Basic Operating Tutorial
 
 [[TUT_MAIN]]
-=== Main Window Settings
-include::tutorial-main-window.adoc[]
+=== Settings
+include::settings.adoc[]
 
-[[TUT_WIDE_GRAPH]]
-=== Wide Graph Settings
-include::tutorial-wide-graph-settings.adoc[]
-
-[[TUT_EX1]]
-=== Sample File 1
-include::tutorial-example1.adoc[]
-
-[[TUT_EX2]]
-=== Sample File 2
-include::tutorial-example2.adoc[]
-
-[[MAKE_QSOS]]
-== Making QSOs
-include::make-qso.adoc[]
 
 [[COMMAND_REF]]
-== Command Reference
+== GUI
 
 [[CONTROLS_WIDE]]
-=== Wide Graph
+=== File
 include::controls-functions-wide-graph.adoc[]
 
 [[CONTROLS_MAIN]]
-=== Main Window
+=== Window
 include::controls-functions-main-window.adoc[]
 
 [[CONTROLS_LEFT]]
-=== Misc Controls Left
+=== Statistics
 include::controls-functions-left.adoc[]
-
-[[CONTROLS_CENTER]]
-=== Misc Controls Center
-include::controls-functions-center.adoc[]
-
-[[CONTROLS_MSGS]]
-=== Tx Messages
-include::controls-functions-messages.adoc[]
-
-[[STATUS_BAR]]
-=== Status Bar
-include::controls-functions-status-bar.adoc[]
 
 [[MENUS]]
 === Menus
-include::controls-functions-menus.adoc[]
+Here every menu will be described
 
-[[PLATFORM]]
-== Platform Dependencies
-include::platform-dependencies.adoc[]
+[[FILES]]
+==== Files
+Doing imports and some more stuff
+
+[[WINDOWS]]
+==== Window
+Open different Windows
 
 [[COOP_PGMS]]
 == Cooperating Programs
-To be added: brief descriptions of _JTAlert-X_ and _PSK Reporter_, and
-how to use them with _WSJT-X_.
+* hamlib
+* wsjtx
+* qsstv
+* gpredict
+* n1mm
+* jd1tx
 
 [[FAQ]]
 == Frequently Asked Questions
 include::faq.adoc[]
-
-[[PROTOCOLS]]
-== Protocol Specifications
-
-[[JT65PRO]]
-=== JT65
-include::jt65-protocol.adoc[]
-
-[[JT9PRO]]
-=== JT9
-include::jt9-protocol.adoc[]
-
-[[JT65_JT9]]
-=== JT65 & JT9 Differences
-include::jt65-jt9-differences.adoc[]
-
-[[TXRX]]
-== Implementation Details
-include::tx-rx.adoc[]
 
 ////
 [[TROUBLE_SHOOTING]]
@@ -174,14 +97,7 @@ include::tx-rx.adoc[]
 To be added (?) ...
 ////
 
-[[UTIL]]
-== Utility Programs
-include::utilities.adoc[]
-
-[[ACK]]
-== Acknowledgements
-include::acknowledgements.adoc[]
 
 [[LICENSE]]
 == License
-include::../common/license.adoc[]
+include::license.adoc[]

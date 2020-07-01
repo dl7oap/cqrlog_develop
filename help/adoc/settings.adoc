@@ -1,0 +1,6 @@
+.Preferences
+
+The first step you need is to set up your log preferences. From the logging window, choose the 'File' menu item and 'Preferences' (or Ctrl-P).
+
+//.Main UI Controls
+image::images/file_menu.png[align="left",width=300,alt="Main UI Controls"]
