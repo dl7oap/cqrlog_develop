@@ -3,6 +3,7 @@
 = CQRLOG User Guide
 //:Date: October 1, 2014
 :Revision: {VERSION}
+:homepage: http://www.cqrlog.com
 // For web-pages, adding :badges: is ok, but is a security issue for
 // package building .deb, .rpm, etc as it exposes the IP address and the images
 // are non-free, so can't be included as part of the Debian package.
@@ -12,9 +13,6 @@
 :keywords: amateur radio weak signal communication K1JT WSJT FSK441 JT65 JT6M
 :description: Software for Amateur Radio Weak-Signal Communication
 :prog: WSJT-X
-
-// use global link file
-include::../common/links.adoc[]
 
 // These [[xxxx]] labels are HTML anchors, and can be used to
 // navigate though the document easily: <<[INTRO],See Introduction]>> will
@@ -51,20 +49,20 @@ https://github.com/ok2cqr/cqrlog
 include::settings.adoc[]
 
 
-[[COMMAND_REF]]
+[[GUI]]
 == GUI
 
-[[CONTROLS_WIDE]]
+[[GUI_FILE]]
 === File
-include::controls-functions-wide-graph.adoc[]
 
-[[CONTROLS_MAIN]]
+
+[[GUI_WINDOW]]
 === Window
-include::controls-functions-main-window.adoc[]
 
-[[CONTROLS_LEFT]]
+
+[[GUI_STATISTICS]]
 === Statistics
-include::controls-functions-left.adoc[]
+
 
 [[MENUS]]
 === Menus
@@ -91,12 +89,9 @@ Open different Windows
 == Frequently Asked Questions
 include::faq.adoc[]
 
-////
 [[TROUBLE_SHOOTING]]
 == Troubleshooting
 To be added (?) ...
-////
-
 
 [[LICENSE]]
 == License
