@@ -41,7 +41,7 @@ package for your operating system.
 
 [[INSTALL_LINUX]]
 === Linux
-include::install-linux.adoc[]
+include::install_linux.adoc[]
 
 [[SRC_CODE]]
 === Source Code

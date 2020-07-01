@@ -523,7 +523,44 @@ package for your operating system.</p>
 <div class="sect2">
 <h3 id="INSTALL_LINUX">3.1. Linux</h3>
 <div class="paragraph">
-<p>Unresolved directive in main.adoc - include::install-linux.adoc[]</p>
+<p>Installation:
+Ubuntu users can use a repository on Launchpad. To add the repo, open a terminal and copy&amp;paste</p>
+</div>
+<div class="paragraph">
+<p>sudo add-apt-repository ppa:ok2cqr/ppa
+sudo apt-get update
+sudo apt-get install cqrlog</p>
+</div>
+<div class="paragraph">
+<p>Only Ubuntu 14.04 and Ubuntu 16.04 are officially supported but there are also builds for other versions of Ubuntu on Launchpad.</p>
+</div>
+<div class="paragraph">
+<p>Debian users can simply install using the package manager</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>sudo apt-get install cqrlog</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For other distributions, you can use binaries located at <a href="http://cqrlog.com/download" class="bare">http://cqrlog.com/download</a>. Some of them, like Fedora and Arch, have their own repositories for CQRLOG - Fedora: <a href="https://apps.fedoraproject.org/packages/cqrlog" class="bare">https://apps.fedoraproject.org/packages/cqrlog</a> ArchLinux <a href="https://aur.archlinux.org/packages/cqrlog/" class="bare">https://aur.archlinux.org/packages/cqrlog/</a>
+If upgrading, no important file will be overwritten. Anyway, backup your log before you begin any upgrade!</p>
+</div>
+<div class="paragraph">
+<p>Dependencies:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>[IMPORTANT]: HamLib - must be installed even if you don&#8217;t want radio control. The sources are available at <a href="http://hamlib.sourceforge.net/" class="bare">http://hamlib.sourceforge.net/</a>, however precompiled packages are available for almost all major Linux distributions.</p>
+</li>
+<li>
+<p>MySQL server and client - The MySQL client must be installed, without this the program will not work at all. A MySQL server must be reachable, either on the local machine or via a network.</p>
+</li>
+<li>
+<p>libssl-devel needed if you want to use LoTW and/or online log upload</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect2">
@@ -755,7 +792,7 @@ how to use them with <em>WSJT-X</em>.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-06-30 23:03:07 CEST
+Last updated 2020-07-01 19:37:25 CEST
 </div>
 </div>
 </body>
